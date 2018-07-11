@@ -4,7 +4,8 @@
   "description": "Front End Project Typescript starter. Contains webpack setup for scss, html-loader, TS-transpiler, lite-server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "serve": "lite-server -c bs-config.json"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "awesome-typescript-loader": "5.2.0",
     "css-loader": "1.0.0",
     "del-webpack-plugin": "1.0.6",
+    "eslint": "5.1.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
     "less": "3.7.0",
