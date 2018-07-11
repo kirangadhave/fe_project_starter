@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kirangadhave/fe_project_starter#readme",
   "devDependencies": {
+    "autoprefixer": "8.6.5",
     "awesome-typescript-loader": "5.2.0",
     "css-loader": "1.0.0",
     "del-webpack-plugin": "1.0.6",
