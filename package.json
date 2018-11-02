@@ -4,7 +4,8 @@
   "description": "Front End Project Typescript starter. Contains webpack setup for scss, html-loader, TS-transpiler, lite-server.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "npm install && webpack",
+    "dev": "npm install && webpack -w",
     "serve": "lite-server -c bs-config.json"
   },
   "repository": {
